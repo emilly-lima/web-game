@@ -21,7 +21,7 @@ body {
     line-height: 1;
     justify-content: center;
     justify-items: center;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     text-align: center;
     margin: 0;
     padding: 2em;
@@ -66,6 +66,7 @@ h2, p {
 
 #secao2 {
     display: grid;
+    font-size: 16px;
     grid-template-columns: 100px 100px 100px;
     grid-gap: 2px;
     padding: 5px;
@@ -82,12 +83,12 @@ h2, p {
         background-color: #e8d60f;
         border-color: #faf5c8;
         border-style: solid;
-        border-width: 2px;
+        border-width: 5px;
     }
 }
 
 
-@media all and (min-width: 800px) {
+/**@media all and (min-width: 800px) {
     .secao2    { flex: 1 10px; }
     .secao1 { order: 1; } 
     .secao2   { order: 2; }
