@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    list-style: none;
+    text-decoration: none;
+    content: '';
+	content: none;
+    quotes: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    /*aqui o, obrigado, enfim, tava falando desse reset, tinha feito n
+    
+    to procurando o resto do boiler plate
+    pronto. agora o resto
+    
+    */
+}
+
+body {
+    display: flex;
+    line-height: 1;
+    justify-content: center;
+    justify-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: 0;
+    padding: 2em;
+    height: 100%;
+    width: 100%;
+    
+    background-color: #faf5c8;
+    
+}
+
+span {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Kalnia', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+    color: #2b5166;
+}
+
+h2, p {
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-bottom: 0.4em;
+    margin-top: 0.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #25232d;
+}
+
+#secao1 {
+    text-align: start;
+    width: 30%;
+    margin: auto;
+}
+
+#secao2 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 2px;
+    padding: 5px;
+    background-color: #a09e86;
+    height: fit-content;
+    width: fit-content;
+
+    div {
+        background-color: #faf5c8;
+        display: grid;
+        grid-template-columns: 30px 30px 30px;
+        grid-gap: 1px;
+        padding: 1px;   
+        background-color: #e8d60f;
+        border-color: #faf5c8;
+        border-style: solid;
+        border-width: 2px;
+    }
+}
+
+
+@media all and (min-width: 800px) {
+    .secao2    { flex: 1 10px; }
+    .secao1 { order: 1; } 
+    .secao2   { order: 2; }
+  }
+  
+
