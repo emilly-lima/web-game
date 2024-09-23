@@ -14,12 +14,6 @@
     quotes: none;
     border-collapse: collapse;
     border-spacing: 0;
-    /*aqui o, obrigado, enfim, tava falando desse reset, tinha feito n
-    
-    to procurando o resto do boiler plate
-    pronto. agora o resto
-    
-    */
 }
 
 body {
@@ -61,11 +55,14 @@ h2, p {
     color: #25232d;
 }
 
+/*
 #secao1 {
     text-align: start;
     width: 30%;
     margin: auto;
 }
+
+*/
 
 #secao2 {
     display: grid;
