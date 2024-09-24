@@ -55,6 +55,19 @@ h2, p {
     color: #25232d;
 }
 
+main {
+    padding-top: 2%;
+}
+
+canvas {
+    display: flex;
+    width: 30%;
+    height: 25%;
+    margin: auto;
+    border: 5px solid #2b5166;
+}
+
+
 /*
 #secao1 {
     text-align: start;
@@ -62,7 +75,7 @@ h2, p {
     margin: auto;
 }
 
-*/
+
 
 #secao2 {
     display: grid;
